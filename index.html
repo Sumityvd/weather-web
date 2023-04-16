@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="S:\vs code\weather-app\style.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/3a96c6052d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="name">
+        <h1>Weather App</h1>
+        <img src="./sun-cloud.png" width="70px" height="70px" alt="">
+    </div>
+    <div class="input">
+        <input id="cityname" type="text" placeholder="Search...." />
+        <img src="search-icon.svg" alt="" id="submit">
+    </div>
+    <div id="card--container">
+        <div class="result res1">
+            <p id="city"></p>
+            <div class="contains">
+                <span id="icon"></span>
+                <p id="sky">Sky condition:</p>
+                <p id="temp">Temperature:</p>
+                <p id="wind">Wind speed:</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
